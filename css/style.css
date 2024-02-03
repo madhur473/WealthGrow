@@ -1,0 +1,38 @@
+/* styles.css */
+
+/* Add CSS styles for the newly added sections */
+
+/* Style for the "ForexLIST VIEW" section */
+.forex-list {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* Two equal-width columns */
+    gap: 20px; /* Gap between grid items */
+}
+
+.currency {
+    background-color: #f7f7f7;
+    width: 170px; /* Fixed width */
+    height: 183px; /* Fixed height */
+    margin-top: 20px;
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Style for currency name */
+.currency h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+/* Style for currency attributes */
+.currency p {
+    font-size: 14px;
+    margin: 5px 0;
+    color: #666;
+}
+
+/* Add more specific styles as needed for each section */

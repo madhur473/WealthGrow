@@ -1,0 +1,124 @@
+body{
+    background-color:#00171A ;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.left-div {
+    float: left;
+    width: 28%;
+    /* background-color: CBF1FC; */
+    margin-left: 145px;
+    padding: 20px;
+    margin-top: 65px;
+    height: 1000px; /* Increase the height as needed */
+}
+
+.left-div2 {
+    float: left;
+    width: 28%;
+    background-color: #7a3131;
+    margin-left: 145px;
+    padding: 20px;
+    margin-top: 65px;
+}
+/* Create a 10% gap between the divs */
+.gap {
+    width: 10%;
+    float: left;
+}
+
+/* Apply CSS to the second div (60%) */
+.right-div {
+    float: left;
+    width: 40%;
+    margin-left: 135px;
+    padding: 20px;
+    margin-top: 65px;
+    height: 567px;
+    
+}
+table tr td:last-child img {
+    height: 50px;
+    width: 110px;
+}
+.crypto-news {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.crypto-news-item {
+    background-color: #91DFEE;
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+
+/* Style for news headlines */
+.crypto-news-item h3 {
+    font-size: 18px;
+    margin: 0;
+    color: #333;
+}
+
+/* Style for news content */
+.crypto-news-item p {
+    font-size: 14px;
+    color: #666;
+}
+.mar1{
+    background-color: #CBF1FC;
+}
+
+.left-content {
+    height: 1877px; /* Set the desired height for scrollability */
+    overflow: auto; /* Enable vertical scrolling */
+    background-color: #CBF1FC;
+}
+.additional-content {
+    background-color: #00171A;
+    padding: 20px;
+    border: 1px solid #ccc;
+    margin-top: 685px;
+    margin-bottom: 10px;
+}
+.news-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr); /* Creates 4 equal-width columns */
+    gap: 20px; /* Add some spacing between news items */
+    background-color: #CBF1FC;
+}
+
+.additional-content img {
+    height: 153px;
+    width: 204px;
+}
+
+.a{
+text-decoration: none;
+color: black;
+}
+.news-section {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: #CBF1FC;
+}
+
+.news-item {
+    width: 96%;
+    background-color: #CBF1FC;
+    border: 1px solid #ddd;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.news-item img {
+    max-height: 88px;
+    max-width: 148px;
+    display: block;
+    margin: 0 auto 10px;
+}
+
+.news-item p {
+    margin: 0 0 10px;
+}

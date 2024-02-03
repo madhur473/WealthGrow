@@ -1,0 +1,115 @@
+body{
+    background-color: #00171A;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    padding: 10px;
+    width: 80%;
+    margin-left: 130px;
+    margin-bottom: 10px;
+    color: white;
+}
+
+th, td {
+    border: 1px solid rgb(255, 255, 255);
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #002A30;
+}
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* Normal link styles */
+  /* Link styles on hover */
+  a:hover {
+     /* Set the text color when hovering */
+    text-decoration: none; /* Add an underline on hover */
+  }
+  
+  .container {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-gap: 20px;
+    padding: 20px;
+    width: 80%;
+    margin-left: 130px;
+}
+
+.info-box {
+    background-color: #91DFEE;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #ccc;
+}
+
+/* h2 {
+    font-size: 20px;
+    margin-top: 0;
+} */
+p {
+    font-size: 16px;
+    line-height: 1.5;
+    display: flex; 
+    gap: 20px;
+    margin-left: 20px;
+
+}
+.fund-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr); /* You can adjust the number of columns as needed */
+    gap: 0px; /* Adjust the gap between items as needed */
+}
+.fund {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #ccc;
+    margin: 10px;
+    padding: 10px;
+    max-width: 60%;
+    width: 67%;
+    margin-left: 130px;
+    transition: background-color 0.3s; /* Add a smooth transition effect */
+    background-color: #CBF1FC;
+}
+.fund:hover {
+    background-color: #f0f0f0; /* Change the background color on hover */
+}
+
+.fund-logo {
+    max-width: 40px;
+    margin-right: 5px;
+    vertical-align: middle; 
+}
+
+.fund-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.fund-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.fund-buttons {
+    display: flex;
+}
+
+.button {
+    background-color: #002A30;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-size: 16px;
+    cursor: pointer;
+    margin-right: 10px;
+}

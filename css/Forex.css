@@ -1,0 +1,96 @@
+
+body{
+    background-color:#00171A ;
+    font-family: 'Times New Roman', Times, serif;
+}
+h2 {
+    text-align: center;
+    margin: 20px 0; /* Add space above and below h2 headings */
+}
+
+/* Style the unordered lists */
+ul {
+    list-style-type: disc; /* Use disc bullets for list items */
+    margin-left: 20px; /* Indent the list items */
+}
+
+/* Style the paragraphs */
+p {
+    margin: 10px 0; /* Add space above and below paragraphs */
+}
+
+/* Add a background color and padding to the forex-info container */
+.forex-info {
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow */
+}
+h2 {
+    text-align: center;
+    margin: 20px 0;
+}
+
+/* Style the list items for pros and cons */
+.pros{
+    list-style-type: disc;
+    margin-left: 20px;
+}
+
+/* Add a background color and padding to the pros  */
+.pros{
+    background-color: #CBF1FC;
+    padding: 8px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin: 10px 250px;
+    text-align: justify;
+    transition: transform 0.2s;
+
+}
+.pros:hover, .cons:hover {
+    transform: scale(1.05);
+}
+
+/* Style for the form container */
+        .form-container {
+            text-align: center;
+            margin: 20px;
+        }
+
+        /* Style for the form elements */
+        select, input, button {
+            margin: 5px;
+            padding: 5px;
+            font-size: 16px;
+        }
+        table {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 75%;
+            margin-left: 180px;
+            margin-bottom: 10px;
+        }
+        
+        
+        table th, table td {
+            border: 1px solid #000000;
+            background-color: #f2f2f2;
+            text-align: left;
+            padding: 8px;
+        }
+        
+        
+        table tr:hover {
+            background-color: #7e6a6a;
+            box-shadow: 10px 10px 10px 10px rgba(0.75,0.75,0.75,0.75);
+            transition: box-shadow 0.3s;
+        }
+        
+        a {
+            text-decoration: none;
+            color: #2f2a7c;
+            
+        }
+        a:hover{
+            color: #ffffff;
+        }

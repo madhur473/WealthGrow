@@ -1,0 +1,131 @@
+body {
+   color: #000000;
+   background-color: #00171A;
+}
+
+
+.container {
+    padding-top: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.mar{
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 5px;
+}
+
+.info-box {
+    width: calc(19.33% - -36px);
+    padding: 29px;
+    border: 1px solid #000000;;
+    margin: 25px;
+    border-radius: 40px;
+    background-color:#91DFEE;
+    transition: transform 0.2s;
+}
+
+.info-box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+.W{
+    width:100%;
+    
+}
+.ad{
+    margin-left: 21%;
+}
+.G img {
+    display:block;
+    float: right; /* Float the image to the right */
+    margin-top: 360px;
+    margin-right: 36px;
+}
+.trading-type {
+    background-color: #CBF1FC;
+    margin: 10px;
+    padding: 1px;
+    width: 850px; /* Reduce the width to make the box smaller */
+    max-width: 100%; /* Keep it responsive */
+    border-radius: 5px;
+    box-shadow: 0 2px 2px #000000;
+    transition: background-color 0.3s; /* Add hover transition */
+    display: flex; /* Add this property */
+    flex-direction: column; /* Add this property */
+    align-items: center; /* Add this property */
+    align-self: center;
+}
+.trading-type:hover {
+    background-color: #f0f0f0; /* Change background color on hover */
+}
+
+marquee {
+    margin-top:5px;
+    background-color: #CBF1FC; /* Set your desired background color */
+    color: #000000; /* Set text color */
+    padding: 10px; /* Add padding for spacing */
+
+}
+
+
+.stock-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 10px; /* Adjust the margin as needed */
+    width: 50%;
+    margin-left: 25%;
+}
+
+.stock-column {
+    width: 19%; /* Each column occupies 19% of the container width */
+    padding: 10px;
+    border: 1px solid #ccc;
+}
+table{
+    border: 3px solid #4264A2;
+    margin-left: 15%;
+    margin-top: 15px;
+    width: 50%;
+    color: #ffffff;
+}
+
+/* Style the label for the dropdown */
+label {
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+/* Style the dropdown select element */
+select {
+    padding: 5px;
+    margin-top: 65px;
+    font-size: 16px;
+    border: 3px solid #000000;
+    border-radius: 4px;
+}
+
+/* Style the options in the dropdown */
+option {
+    background-color: #fff;
+    color: #333;
+    padding: 5px;
+}
+
+/* Style the dropdown when it's hovered over */
+select:hover {
+    border-color: #555;
+}
+
+/* Style the dropdown when it's focused (clicked) */
+select:focus {
+    border-color: #ffffff; /* You can change the color to your preference */
+    box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+}
+
+.table-container {
+    flex-direction: column;
+    width: 50%;
+    display: -webkit-box;
+}

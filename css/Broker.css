@@ -1,0 +1,59 @@
+/* brokers.css */
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    text-align: center;
+    margin: 0;
+    padding: 0;
+    background-color:#00171A ;
+}
+
+h1 {
+    background-color: #333;
+    color: #fff;
+    padding: 10px;
+}
+
+.broker-list {
+    display:grid;
+    flex-direction: column; /* Display brokers in a column layout */
+    align-items: center; /* Center the content horizontally */
+    padding: 20px;
+    margin-top: -3%;
+
+}
+
+.broker-item {
+    display: flex;
+    text-align: center;
+    margin: 10px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #91DFEE;
+    width: 1440px; /* Set a fixed width for each broker */
+    justify-content: space-between; /* Space between logo and button */
+    align-items: center; /* Center vertically within each item */
+}
+
+img {
+    max-width: 100px;
+    max-height: 100px;
+}
+
+h2 {
+    margin: 10px 0;
+}
+
+.visit-button {
+    display:inline-block;
+    background-color: #030e19;
+    color: #fff;
+    padding: 13px 28px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.visit-button:hover {
+    background-color: #0056b3;
+}

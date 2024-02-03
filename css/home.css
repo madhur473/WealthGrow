@@ -1,0 +1,245 @@
+body,header,footer {
+   color: #000;
+   font-family: 'Times New Roman', Times, serif;
+   margin: 0;
+   padding: 0;
+}
+
+/* Header Styles */
+header {
+    background-color: #91DFEE; /* Background color for the header */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px; /* Add padding to the header for spacing */
+    font-weight: 500;
+}
+
+/* Logo Styles */
+.logo {
+    max-height: 70px;
+    width: 12%;
+}
+/* Navbar Styles */
+.list {
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap: 120px;
+}
+
+.link {
+    position: relative;
+    display: inline-block;
+    text-decoration: none;
+    color: #000000;
+    font-weight: 700;
+}
+
+.link::before,
+.link::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    width: 100%;
+    height: 2px;
+    background-color: #2B0076;
+    transform: scaleX(0);
+    transition: transform 0.25s;
+}
+
+.link::before {
+    top: -3px;
+    transform-origin: left;
+}
+
+.link::after {
+    bottom: -3px;
+    transform-origin: right;
+}
+
+.link:hover::before,
+.link:hover::after,
+.active::before,
+.active::after {
+    transform: scaleX(1);
+}
+
+/* Login Button Styles */
+.login-button {
+    background-color: 
+    #002A30;
+    color: #ffffff;
+    border: none;
+    padding: 17px 18px;
+    cursor: pointer;
+    font-weight: 700;
+    border-radius: 30px;
+    margin-left: auto;
+}
+
+.login-button:hover {
+    background-color: #007f7b;
+}
+
+.main-heading {
+    font-size: 36px;
+    text-align: center;
+    margin-top: 20px;
+    color: #000000; /* Change the color to your preference */
+    font-weight: bold;
+    transition: color 0.3s; /* Add a smooth color transition effect */
+}
+.main-heading:hover {
+    color: #00899E; /* Change the color to your desired hover color */
+}
+
+/* User Avatar Styles */
+.avatar {
+    max-height: 50px; /* Adjust the avatar's height as needed */
+    border-radius: 50%; /* Makes the avatar a circle */
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-align: left; /* Align the dropdown content to the left */
+}
+
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+
+.arrow {
+    font-size: 14px;
+    margin-left: 5px;
+}
+
+/* Style the individual dropdown items */
+.dropdown-content a {
+    padding: 10px;
+    text-decoration: none;
+    display: block;
+    color: #333;
+}
+
+/* Highlight dropdown items on hover */
+.dropdown-content a:hover {
+    background-color: #007bff;
+    color: #fff;
+}
+
+
+
+
+
+/* Card Styles */
+.card-container {
+    display: flex; /* Display cards in a row */
+    justify-content: space-between; /* Add space between cards */
+    align-items: center;
+    gap: 20px; /* Adjust the gap between cards as needed */
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+.card {
+    width: calc(33.33% - 20px); /* 33.33% width for each card with a gap of 20px */
+    background-color: #f9f9f9; /* Background color for the cards */
+    border-radius: 10px; /* Add rounded corners to the cards */
+    padding: 20px; /* Add padding inside the cards */
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Add a subtle shadow to the cards */
+}
+/* Style for the footer */
+footer {
+    background-color: #CBF1FC;
+    color: #000000;
+    padding: 20px;
+}
+
+#footer-links {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    flex: 1;
+}
+
+.footer-section h4 {
+    font-size: 16px;
+}
+
+.footer-section ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-section li {
+    margin: 5px 0;
+}
+
+.footer-section a {
+    color: #000000;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.footer-section a:hover {
+    color: #ffd700; /* Change to your preferred link hover color */
+}
+
+#contact-info h4 {
+    font-size: 16px;
+    margin-top: 20px;
+}
+
+#contact-info p {
+    margin: 5px 0;
+}
+
+/* Media query for smaller screens */
+@media (max-width: 768px) {
+    #footer-links {
+        flex-direction: column;
+    }
+
+    .footer-section {
+        text-align: center;
+    }
+}
+
+/* Style for the footer logo */
+#footer-logo img {
+    max-width: 150px; /* Adjust the maximum width as needed */
+    height: auto;
+    display: block;
+    margin-right: 73px; /* Center the logo horizontally */
+    margin-top: 82px; /* Add space below the logo */
+    float: right;
+}

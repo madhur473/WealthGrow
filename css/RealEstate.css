@@ -1,0 +1,32 @@
+body{
+    background-color: #00171A;
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 20px; /* Adjust the gap as needed */
+}
+
+.grid-item {
+    border: 3px solid #000000;
+    padding: 4px;
+    text-align: center;
+    border-radius: 3%;
+    background-color:#91DFEE ;
+    margin-bottom: 10px;
+    
+}
+.grid-item {
+    position: relative;
+    perspective: 1000px;
+    overflow: hidden;
+    transition: transform 0.5s, box-shadow 0.3s;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0);
+}
+
+.grid-item:hover {
+    transform: scale(1.1); /* Scales the item on hover */
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.3); /* Adds a shadow on hover for the pop effect */
+}

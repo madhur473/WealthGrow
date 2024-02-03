@@ -1,0 +1,111 @@
+body {
+    background-color: #00171A;
+    color: #000000;
+    font-family: 'Times New Roman', Times, serif;
+ }
+ 
+.crypto-container {
+    width: 100%;
+    overflow: auto;
+    white-space: nowrap;
+}
+
+.crypto-box {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 5px;
+    width: 300px; /* Increased width */
+    display: inline-block;
+    vertical-align: top;
+    white-space: nowrap; /* Ensure name and volume stay in one line */
+    transition: transform 0.3s; /* Add a transition effect */
+    background-color: #CBF1FC;
+}
+.crypto-logo {
+    max-width: 40px;
+    max-height: 40px;
+    margin-right: 5px;
+    vertical-align: middle; /* Align the logo with the middle of the text */
+}
+
+.crypto-name {
+    font-weight: bold;
+    font-size: 12px; /* Reduce the font size */
+}
+
+.volume-name {
+    font-size: 10px; /* Further reduce the font size for volume and name */
+}
+
+.change-positive {
+    color: green;
+}
+.grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px; /* Adjust the gap as needed */
+}
+
+.grid-item {
+    background-color: #91DFEE;
+    padding: 5px;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    margin-bottom: 20px; /* Add space between grid items */
+    margin-right: 30px;
+    margin-left: 30px;
+    text-align: center; /* Center align text in the grid items */
+    transition: background-color 0.3s; /* Add a smooth transition for the background color change */
+}
+
+.grid-item:hover {
+    background-color: #e0e0e0; /* Change the background color on hover */
+}
+
+/* Additional styling for headings and paragraphs */
+h2 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+p {
+    font-size: 16px;
+}
+
+.change-negative {
+    color: red;
+}
+
+.crypto-box:hover {
+    transform: scale(1.1); /* Apply a scale transformation on hover */
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.2); /* Add a subtle shadow effect on hover */
+}
+table {
+    border-collapse: collapse;
+    width: 75%;
+    font-family: Arial, sans-serif;
+    margin-top: 30px;
+    margin-left: 180px;
+    margin-bottom: 10px;
+}
+
+th, td {
+    text-align: left;
+    padding: 8px;
+}
+
+th {
+    background-color: #f2f2f2;
+}
+tr{
+    background-color: white;
+}
+/* tr:nth-child(even) {
+    background-color: #f2f2f2;
+} */
+
+th {
+    background-color: #002A30;
+    color: white;
+}
+
